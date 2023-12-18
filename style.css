@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: none;
+    text-decoration: none;
+}
+
+.scp{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid blue;
+}
+header{
+    color: blue;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+section label{
+    font-size: 80px;
+}
+
+section div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+section div button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    overflow: hidden;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#p2{
+    font-size: 8px;
+}
